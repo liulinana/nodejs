@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title.source
+  p Welcome to #{title.source} 刘丽娜
+  each val in title.list
+    li= val.name
